@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main-container {
+
+    margin: 50px auto;
+    max-width: 600px;
+
+}
+
+.image-slider {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 600px;
+}
+
+.arrows {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    position: relative;
+    top: -300px;
+    z-index: 1;
+    cursor: pointer;
+}
+
+.dots {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    top: -20px;
+    position: relative;
+    cursor: pointer;
+}
+
+span {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+}
